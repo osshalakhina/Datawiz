@@ -1,0 +1,221 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 50px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.description {
+  text-align: center;
+  width: 700px;
+}
+
+p {
+  font-size: 14px;
+  margin: 20px;
+}
+
+.image-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  height: 350px;
+}
+
+.margin {
+  margin-left: 20px;
+}
+
+.presentation {
+  height: 500px;
+  width: 670px;
+}
+
+.top {
+  margin-top: 30px;
+}
+
+.blog {
+  width: 700px;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    margin: 20px 30px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .description {
+    text-align: center;
+    width: 550px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 20px;
+  }
+
+  .image {
+    height: 280px;
+  }
+
+  .margin {
+    margin-left: 20px;
+  }
+
+  .presentation {
+    height: 500px;
+    width: 550px;
+  }
+
+  .top {
+    margin-top: 30px;
+  }
+
+  .blog {
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  body {
+    margin: 15px 10px;
+  }
+
+  .site {
+    width: 400px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .description {
+    width: 400px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 20px;
+  }
+
+  .image {
+    height: 200px;
+  }
+
+  .margin {
+    margin-left: 10px;
+  }
+
+  .presentation {
+    height: 400px;
+    width: 400px;
+  }
+
+  .top {
+    margin-top: 20px;
+  }
+
+  .blog {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  body {
+    margin: 15px 10px;
+  }
+
+  .site {
+    width: 350px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .description {
+    width: 350px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 20px;
+  }
+
+  .image {
+    height: 170px;
+  }
+
+  .margin {
+    margin-left: 10px;
+  }
+
+  .presentation {
+    height: 350px;
+    width: 350px;
+  }
+
+  .top {
+    margin-top: 20px;
+  }
+
+  .blog {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    margin: 10px 10px;
+  }
+
+  .site {
+    width: 300px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .description {
+    width: 300px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 20px;
+  }
+
+  .image {
+    height: 150px;
+  }
+
+  .margin {
+    margin-left: 10px;
+  }
+
+  .presentation {
+    height: 300px;
+    width: 300px;
+  }
+
+  .top {
+    margin-top: 20px;
+  }
+
+  .blog {
+    width: 300px;
+  }
+}
