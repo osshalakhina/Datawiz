@@ -1,6 +1,6 @@
 # Datawiz.io
 
-Graphic design works. Made in Adobe photoshop, Adobe Illustrator.
+Graphic design works. Created in Adobe Photoshop, Adobe Illustrator.
 
 # Preview
 
